@@ -9,7 +9,6 @@
 body {
     background: #ffffff;
     min-width: 300px;
-    font-family: sans-serif;
 }
 
 #navbar {
@@ -18,6 +17,7 @@ body {
     height: 100%;
     background-color: #ffffff;
     border-right: 2px solid;
+    overflow: auto;
 }
 
 #navbar header {
@@ -28,8 +28,7 @@ body {
 }
 
 #navbar ul {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: auto;
     height: 100%;
     padding: 0px;
 }
@@ -75,7 +74,7 @@ section {
 
 @media (max-width: 680px) {
     #navbar {
-        height: 230px;
+        height: 300px;
         margin: 0;
         top: 0;
         padding: 0;
@@ -93,6 +92,7 @@ section {
 
     code {
         width: 100%;
+        min-width: 240px;
     }
 
 
@@ -104,5 +104,10 @@ section {
 
     #navbar ul li {
         padding-left: 10px;
+    }
+
+    section {
+        line-height: 2;
+        font-size: 12px;
     }
 }
