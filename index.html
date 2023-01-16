@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,600;1,200&display=swap" rel="stylesheet">
+
   </head>
   <body>
 
@@ -28,11 +34,9 @@
     </nav>
 
     <main id="main-doc">
-      <h3>Technical Documentation Page</h3>
-      <section class="main-section"></section>
       <section class="main-section">
         <header id="introduction">
-          <h4>Introduction</h4>
+          <header>Introduction</header>
         </header>
         <p>
           JavaScript is a cross-platform, object-oriented scripting language. It
@@ -63,10 +67,8 @@
         </p>
         </section>
         <section class="main-section" id="JavaScript_and_Java">
-        <p>
-            <header>
-                 <h3>JavaScript and Java</h3>
-                </header>
+      
+            <header>JavaScript and Java </header>
            
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
 
@@ -134,7 +136,7 @@
           The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.
           
           You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
-          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS 
             WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
             //statements }
           </code>
